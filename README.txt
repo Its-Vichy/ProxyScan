@@ -15,3 +15,11 @@
 📌 Default port:
    - Socks: 1080
    - Http:  3128 | 8080
+
+
+🚨 You need working proxies ?
+
+  We are providing the best proxies at cheap price !
+
+✅ https://docs.proxies.gay
+✅ https://vu.fr/rca-discord
