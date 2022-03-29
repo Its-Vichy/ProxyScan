@@ -1,6 +1,8 @@
 🔎 scan the internet to find "private" proxies.
 
-Installation:
+🧠 HTTP Proxies only.
+
+📌 Installation:
   - sudo apt-get install git zmap golang-go -y (debian based distribution)
   - git clone https://github.com/Its-Vichy/ProxyScan && cd ProxyScan
   
@@ -9,3 +11,7 @@ Installation:
   
   👉 Check ips from file (without port):
   - cat <proxy_file> | go run ./main.go <proxy_port> <output_file>
+
+📌 Default port:
+   - Socks: 1080
+   - Http:  3128 | 8080
