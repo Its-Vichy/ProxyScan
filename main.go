@@ -12,6 +12,7 @@ import (
 	"net/url"
 	"os"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -70,7 +71,7 @@ func main() {
 		scanner := bufio.NewScanner(data)
 
 		for scanner.Scan() {
-			go check(scanner.Text(), port, file_path)
+			go check(strings.Split(scanner.Text(), ":")[0], port, file_path)
 			time.Sleep(1 * time.Millisecond)
 		}
 	}
