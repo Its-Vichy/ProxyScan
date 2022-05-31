@@ -1,10 +1,8 @@
 🔎 scan the internet to find "private" proxies.
 
-🧠 HTTP Proxies only.
+🧠 HTTP/SOCKS4/SOCKS5 Proxies.
 
 📌 Installation:
-  - Video tutorial: https://www.youtube.com/watch?v=JtAXwnvO0Ek
-
   - sudo apt-get install git zmap golang-go -y (debian based distribution)
   - git clone https://github.com/Its-Vichy/ProxyScan && cd ProxyScan
   
